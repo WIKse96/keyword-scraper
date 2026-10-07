@@ -1,0 +1,20 @@
+# Cache Pythona
+__pycache__/
+*.pyc
+*.pyo
+
+# Baza SQLite z kolejką i visited (stan runtime)
+*.db
+
+# Plik z odwiedzonymi URL-ami (generowany podczas działania)
+visited.txt
+
+# Pliki IDE
+.idea/
+*.iml
+
+# Konfiguracja lokalna Claude Code
+.claude/
+
+# Plik szablonowy PyCharm (nie jest częścią projektu)
+main.py
